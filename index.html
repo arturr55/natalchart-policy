@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — «Натальная карта»</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1626;
+    --muted: #5d5670;
+    --line: #e3dff0;
+    --accent: #5b3fa8;
+    --card: #f7f5fc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17132a;
+      --fg: #ece9f5;
+      --muted: #a49bc0;
+      --line: #2e2748;
+      --accent: #b9a5ef;
+      --card: #1f1a38;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 40rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 .4rem; letter-spacing: -.01em; }
+  .date { color: var(--muted); font-size: .95rem; margin: 0 0 2rem; }
+  h2 {
+    font-size: 1.08rem; margin: 2.2rem 0 .6rem;
+    color: var(--accent); letter-spacing: .01em;
+  }
+  p { margin: 0 0 1rem; }
+  .lead {
+    background: var(--card);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.1rem;
+    margin: 0 0 1.5rem;
+  }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: .87em;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: .1em .35em;
+    word-break: break-all;
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 3rem; padding-top: 1.2rem;
+    border-top: 1px solid var(--line);
+    color: var(--muted); font-size: .92rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Политика конфиденциальности</h1>
+  <p class="date">Приложение «Натальная карта» (<code>uz.artur.natalchart</code>). Дата вступления в силу: 30 августа 2026 года.</p>
+
+  <p class="lead">Приложение «Натальная карта» не собирает, не передаёт и не хранит за пределами вашего устройства никаких персональных данных.</p>
+
+  <h2>Какие данные вы вводите</h2>
+  <p>Чтобы построить карту, вы вводите имя или подпись карты, дату, время и место рождения. Эти сведения сохраняются в базе данных на самом устройстве, в частном хранилище приложения.</p>
+
+  <h2>Куда эти данные уходят</h2>
+  <p>Никуда. У приложения нет разрешения на доступ к сети (<code>android.permission.INTERNET</code> отсутствует в манифесте), нет сервера, нет учётной записи и нет встроенной аналитики или рекламы. Технической возможности передать введённые данные у приложения нет.</p>
+  <p>Это можно проверить: откройте настройки Android → Приложения → «Натальная карта» → Разрешения.</p>
+
+  <h2>Кто ещё имеет доступ</h2>
+  <p>Никто. Разработчик не получает ваших данных и не может их получить.</p>
+
+  <h2>Удаление</h2>
+  <p>Удалите карту в самом приложении либо удалите приложение — вместе с ним удаляются и все сохранённые карты. Резервных копий на стороне разработчика не существует.</p>
+
+  <h2>Дети</h2>
+  <p>Приложение не предназначено для детей младше 12 лет и не собирает данные ни у кого, включая детей.</p>
+
+  <h2>Изменения</h2>
+  <p>Если приложение когда-либо начнёт выходить в сеть, эта политика будет изменена заранее, а разрешение на интернет станет видно в карточке приложения в магазине.</p>
+
+  <h2>Связь</h2>
+  <p><a href="mailto:tirionartur@gmail.com">tirionartur@gmail.com</a></p>
+
+  <footer>Данные о городах — GeoNames (CC BY 4.0). Часовые пояса — IANA Time Zone Database.</footer>
+</main>
+</body>
+</html>
