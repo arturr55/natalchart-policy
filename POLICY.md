@@ -1,4 +1,4 @@
-# Политика конфиденциальности — «Натальная карта»
+# Политика конфиденциальности — «Астрология и гороскоп на день»
 
 Дата вступления в силу: 25 октября 2026 года.
 
@@ -31,7 +31,7 @@ tirionartur@gmail.com
 
 ---
 
-# Privacy Policy — Birth Chart
+# Privacy Policy — Astrology: Daily Horoscope
 
 Effective date: 25 October 2026.
 
